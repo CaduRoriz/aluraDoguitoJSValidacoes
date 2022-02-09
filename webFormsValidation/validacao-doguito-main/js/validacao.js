@@ -80,11 +80,6 @@ const validadores = {
 
 
 /*-----------------------------*/
-const dataNascimento = document.querySelector('#nascimento');
-
-dataNascimento.addEventListener('blur', (evento) => { /* peguei o input da data com o querySelector a partir do seu id, e no evento que ele perde o foco 'blur' (que se pressupoem que o usuario terminou de colocar o input)*/
-    validaDataNascimento(evento.target);              /*e passo o input() para a funcao que valida a idade*/
-} )
 
 
 function validaDataNascimento(input) {
